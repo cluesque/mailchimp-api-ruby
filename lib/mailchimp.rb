@@ -28,7 +28,7 @@ module Mailchimp
                 raise InvalidApiKeyError, 'Your MailChimp API key must contain a suffix subdomain (e.g. "-us8").'
             end
 
-            @session = Excon.new @host
+            @session = Excon.new @host, :debug => debug
             @debug = debug
         end
 
