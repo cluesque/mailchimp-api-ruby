@@ -1,3 +1,10 @@
+cluesque fork
+=============================================
+
+This fork (living on both github and bitbucket) fixes the `debug` parameter, plumbing it through to the excon http layer below.
+
+A copy lives on github for convenience / reliability of deploy.
+
 Overview
 =============================================
 A Ruby API client for [v2 of the MailChimp API](http://apidocs.mailchimp.com/api/2.0/). Please note that we generate this client/wrapper, so while we're happy to look at any pull requests, ultimately we can't technically accept them. We will, however comment on any additions or changes made due to them before closing them.
